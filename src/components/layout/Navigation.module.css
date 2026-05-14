@@ -30,19 +30,18 @@
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: white;
-  letter-spacing: -0.5px;
-  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
 }
 
-.header.scrolled .logo {
-  color: var(--secondary-color);
+.logoImage {
+  height: 60px;
+  width: auto;
+  transition: transform 0.3s ease;
 }
 
-.highlight {
-  color: var(--primary-color);
+.logoImage:hover {
+  transform: scale(1.05);
 }
 
 .nav {

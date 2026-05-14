@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./Navigation.module.css";
 import { NavItem } from "@/types";
 
@@ -25,7 +26,13 @@ export default function Navigation({ items }: NavigationProps) {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <div className={`container ${styles.navContainer}`}>
         <Link href="/" className={styles.logo}>
-          EGSA <span className={styles.highlight}>@ 70</span>
+          <Image 
+            src="/logo.png" 
+            alt="EGSA 70th Anniversary" 
+            width={80} 
+            height={80} 
+            className={styles.logoImage} 
+          />
         </Link>
 
         <nav className={`${styles.nav} ${menuOpen ? styles.navOpen : ""}`}>
