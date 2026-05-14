@@ -1,0 +1,93 @@
+{
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "About Us", "href": "#about" },
+    { "label": "70th Jubilee", "href": "#jubilee" },
+    { "label": "Legacy Projects", "href": "#legacy" },
+    { "label": "Give Back", "href": "#give-back" },
+    { "label": "Alumni Portal", "href": "#alumni" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "headline": "70 Years of Striving for the Highest (1956 – 2026)",
+    "subHeadline": "Celebrating seven decades of Academic Excellence, Character Building, and Service to Humanity.",
+    "primaryCta": "Register for the Grand Finale",
+    "secondaryCta": "Explore Legacy Projects",
+    "countdownDate": "2026-05-30T00:00:00"
+  },
+  "strategicPillars": [
+    { "title": "Academic Excellence", "description": "Nurturing young minds through modern technology and innovation." },
+    { "title": "Character Building", "description": "Repositioning the system for disciplined leadership." },
+    { "title": "Service to Humanity", "description": "A commitment to the progress of Abeokuta and Nigeria at large." }
+  ],
+  "about": {
+    "heritage": "Founded in 1956, Ebenezer Grammar School Abeokuta (EGSA) has remained a citadel of learning and a powerhouse for producing distinguished Nigerians. For 70 years, we have lived by our motto: \"STRIVE FOR THE HIGHEST\".",
+    "motto": "Strive for the Highest",
+    "image": "/leadership.jpg",
+    "leadershipMessages": [
+      {
+        "name": "Engr. Tajudeen Olórí",
+        "role": "National President",
+        "message": "We are committed to strengthening the school for greater excellence and repositioning the system to nurture the next generation of leaders."
+      },
+      {
+        "name": "Engr. Dr. Adekunle Musa, FNSE",
+        "role": "National Secretary",
+        "message": "The Platinum Jubilee is more than a celebration; it is a renewal of our commitment to our alma mater."
+      },
+      {
+        "name": "Engr. Alhaji Samsideen Adedeji Suleiman",
+        "role": "1987 Set Chairman",
+        "message": "Extending heartfelt congratulations to the entire dedicated staff and old students."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Press Conference",
+      "date": "Monday, 13th April, 2026",
+      "location": "Ìbẹ̀rẹ̀kòdó, Abeokuta",
+      "status": "Successfully Flagged Off"
+    },
+    {
+      "title": "The Anniversary Week",
+      "date": "29th May – 31st May, 2026"
+    },
+    {
+      "title": "The Grand Finale",
+      "date": "Saturday, 30th May, 2026",
+      "highlight": "Unveiling of the Commemorative Monument and the Launch of the Endowment Fund."
+    }
+  ],
+  "legacy": {
+    "purpose": "To enhance Computer-Based Tests (CBT) and global competitiveness for all students.",
+    "itCenters": [
+      { "name": "USPF/NCC IT Centre", "donor": "Universal Service Provision Fund and Nigerian Communications Commission" },
+      { "name": "Engr. Tajudeen Olórí Computer Centre", "donor": "National Information Technology Development Agency (NITDA)" }
+    ],
+    "infrastructure": {
+      "safeSpace": "Transforming the school from a \"den of miscreants\" into a secure, fenced, and conducive learning environment.",
+      "completed": "Renovated classrooms and hostels, a modern library, new boreholes, furniture, and perimeter fencing.",
+      "upcoming": "Construction of the 70th Anniversary Commemorative Monument."
+    }
+  },
+  "giveBack": {
+    "endowmentFund": "Launched during the 70th Anniversary, this fund ensures the long-term sustainability of school projects and supports indigent students with examination fees and scholarships.",
+    "merchandise": [
+      { "name": "Platinum Jubilee Polo", "description": "White with navy collar and 70th Anniversary Logo.", "image": "/polo-front.jpg", "backImage": "/polo-back.jpg" },
+      { "name": "Anniversary Cap", "description": "Embroidered 3D logo.", "image": "/cap.jpg" },
+      { "name": "Commemorative Book", "description": "A comprehensive history of EGSA (1956-2026).", "image": "/book.jpg" }
+    ]
+  },
+  "contact": {
+    "address": "Ebenezer Grammar School, Iberekodo, Abeokuta, Ogun State.",
+    "phone": "08035050573",
+    "web": "www.egsaosa.org",
+    "socials": "@egsaosa_official"
+  },
+  "footer": {
+    "copyright": "© 2026 EGSAOSA. All rights reserved.",
+    "motto": "Strive for the Highest",
+    "developer": "Techconsult limited"
+  }
+}

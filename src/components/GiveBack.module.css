@@ -1,0 +1,157 @@
+.giveBack {
+  background-color: var(--bg-subtle);
+}
+
+.header {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 4rem;
+}
+
+.endowmentCard {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .endowmentCard {
+    flex-direction: row;
+  }
+}
+
+.endowmentContent {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.endowmentContent h3 {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.endowmentContent p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.endowmentImage {
+  flex: 1;
+  min-height: 300px;
+  background-color: var(--border-color);
+}
+
+.placeholderBg {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, var(--secondary-color), var(--primary-color));
+  opacity: 0.1;
+}
+
+.merchTitle {
+  font-size: 1.75rem;
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 2.5rem;
+}
+
+.merchGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .merchGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.merchCard {
+  background-color: var(--bg-color);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  transition: var(--transition);
+}
+
+.merchCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-color: var(--primary-color);
+}
+
+.merchImage {
+  aspect-ratio: 1 / 1;
+  background-color: var(--bg-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--border-color);
+  position: relative;
+}
+
+.backImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.merchCard:hover .backImage {
+  opacity: 1;
+}
+
+.placeholderBox {
+  color: var(--text-secondary);
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.merchInfo {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.merchInfo h4 {
+  font-size: 1.25rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.merchInfo p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  min-height: 45px;
+}
+
+.preOrderBtn {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  background: transparent;
+  transition: var(--transition);
+}
+
+.preOrderBtn:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
