@@ -22,9 +22,8 @@ export default function GiveBack({ content }: { content: GiveBackContent }) {
               Donate Now
             </button>
           </div>
-          <div className={styles.endowmentImage}>
-            {/* Placeholder for endowment image */}
-            <div className={styles.placeholderBg}></div>
+          <div className={styles.endowmentImage} style={{ position: "relative", minHeight: "300px" }}>
+            <Image src="/endowment.png" alt="Endowment Fund" fill style={{ objectFit: "cover" }} />
           </div>
         </div>
 

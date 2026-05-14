@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./Footer.module.css";
 import { FooterContent, NavItem } from "@/types";
 
@@ -12,9 +13,15 @@ export default function Footer({ content, navItems }: FooterProps) {
     <footer className={styles.footer}>
       <div className={`container ${styles.footerGrid}`}>
         <div className={styles.brand}>
-          <h2 className={styles.logo}>
-            EGSA <span className={styles.highlight}>@ 70</span>
-          </h2>
+          <div className={styles.logoWrapper}>
+            <Image 
+              src="/logo.png" 
+              alt="EGSA 70th Anniversary" 
+              width={100} 
+              height={100} 
+              className={styles.logoImage} 
+            />
+          </div>
           <p className={styles.motto}>&quot;{content.motto}&quot;</p>
         </div>
 

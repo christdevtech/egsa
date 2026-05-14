@@ -17,14 +17,13 @@
   }
 }
 
-.logo {
-  font-size: 2rem;
-  font-weight: 800;
-  margin-bottom: 0.5rem;
+.logoWrapper {
+  margin-bottom: 1rem;
 }
 
-.highlight {
-  color: var(--primary-color);
+.logoImage {
+  height: 80px;
+  width: auto;
 }
 
 .motto {

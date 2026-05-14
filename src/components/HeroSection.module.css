@@ -136,3 +136,21 @@
   color: var(--text-secondary);
   line-height: 1.6;
 }
+
+@media (max-width: 480px) {
+  .countdownCard {
+    padding: 1.5rem 1rem;
+  }
+  .timer {
+    gap: 0.5rem;
+  }
+  .timeUnit {
+    min-width: 50px;
+  }
+  .number {
+    font-size: 1.75rem;
+  }
+  .label {
+    font-size: 0.65rem;
+  }
+}
