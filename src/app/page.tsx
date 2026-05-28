@@ -2,6 +2,7 @@ import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
+import ExcoSection from "@/components/ExcoSection";
 import JubileeEvents from "@/components/JubileeEvents";
 import LegacyProjects from "@/components/LegacyProjects";
 import GiveBack from "@/components/GiveBack";
@@ -19,6 +20,7 @@ export default function Home() {
       <main>
         <HeroSection content={content.hero} pillars={content.strategicPillars} />
         <AboutSection content={content.about} />
+        <ExcoSection members={content.exco} />
         <JubileeEvents events={content.events} />
         <LegacyProjects content={content.legacy} />
         <GiveBack content={content.giveBack} />

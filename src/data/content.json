@@ -42,6 +42,33 @@
       }
     ]
   },
+  "exco": [
+    {
+      "name": "Engr. (Alhaji) Tajudeen Adisa Olórí, FNSE",
+      "role": "National President",
+      "image": "/exco/tajudeen-olori.jpeg"
+    },
+    {
+      "name": "Dr. (Mrs.) Olasunmbo Oyebolu",
+      "role": "National Vice President I",
+      "image": "/exco/olasunmbo-oyebolu.jpeg"
+    },
+    {
+      "name": "Pastor Engr. Ojebiyi Sunday Ayodele",
+      "role": "National Vice President II",
+      "image": "/exco/ojebiyi-ayodele.jpeg"
+    },
+    {
+      "name": "Engr. Dr. Adekunle Musa, FNSE",
+      "role": "National Secretary",
+      "image": "/exco/adekunle-musa.jpeg"
+    },
+    {
+      "name": "Mrs. Kehinde Ogundeji",
+      "role": "National Treasurer",
+      "image": "/exco/kehinde-ogundeji.jpeg"
+    }
+  ],
   "events": [
     {
       "title": "Press Conference",

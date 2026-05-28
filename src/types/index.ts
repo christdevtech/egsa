@@ -22,6 +22,13 @@ export interface LeadershipMessage {
   message: string;
 }
 
+export interface ExcoMember {
+  name: string;
+  role: string;
+  image: string;
+  bio?: string;
+}
+
 export interface AboutContent {
   heritage: string;
   motto: string;
@@ -82,6 +89,7 @@ export interface WebsiteContent {
   hero: HeroContent;
   strategicPillars: StrategicPillar[];
   about: AboutContent;
+  exco: ExcoMember[];
   events: JubileeEvent[];
   legacy: LegacyProjectContent;
   giveBack: GiveBackContent;

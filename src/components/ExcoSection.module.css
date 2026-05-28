@@ -1,0 +1,46 @@
+.exco {
+  background-color: var(--bg-color);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.subtitle {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* President — centered single card */
+.presidentRow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.presidentRow > * {
+  width: 100%;
+  max-width: 320px;
+}
+
+/* Remaining officers grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
