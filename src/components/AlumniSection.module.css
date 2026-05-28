@@ -1,0 +1,120 @@
+.alumni {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h2 {
+  color: #ffffff;
+}
+
+.subtitle {
+  max-width: 640px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Stats */
+.statsRow {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.statIcon {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.25rem;
+}
+
+.statNumber {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--primary-color);
+}
+
+.statLabel {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Year Badge Grid */
+.setsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
+
+@media (min-width: 640px) {
+  .setsGrid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+.yearBadge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 0.5rem;
+  border-radius: var(--radius-md);
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: var(--transition);
+  cursor: default;
+}
+
+.yearBadge:hover {
+  background-color: rgba(242, 100, 24, 0.15);
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.yearLabel {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1;
+  margin-bottom: 0.2rem;
+}
+
+.yearValue {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.yearBadge:hover .yearValue {
+  color: var(--primary-color);
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.cta strong {
+  color: var(--primary-color);
+}

@@ -5,6 +5,8 @@ import AboutSection from "@/components/AboutSection";
 import ExcoSection from "@/components/ExcoSection";
 import JubileeEvents from "@/components/JubileeEvents";
 import LegacyProjects from "@/components/LegacyProjects";
+import Achievements from "@/components/Achievements";
+import AlumniSection from "@/components/AlumniSection";
 import GiveBack from "@/components/GiveBack";
 import ContactSection from "@/components/ContactSection";
 
@@ -23,6 +25,8 @@ export default function Home() {
         <ExcoSection members={content.exco} />
         <JubileeEvents events={content.events} />
         <LegacyProjects content={content.legacy} />
+        <Achievements achievements={content.achievements} />
+        <AlumniSection content={content.alumni} />
         <GiveBack content={content.giveBack} />
         <ContactSection content={content.contact} />
       </main>

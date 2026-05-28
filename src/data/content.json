@@ -28,7 +28,7 @@
       {
         "name": "Engr. Tajudeen Olórí",
         "role": "National President",
-        "message": "We are committed to strengthening the school for greater excellence and repositioning the system to nurture the next generation of leaders."
+        "message": "Education is critical to the future of our society. A well-educated population is less likely to engage in negative activities. We appeal to the government to remain committed to its educational policies while we continue strengthening the school for greater excellence."
       },
       {
         "name": "Engr. Dr. Adekunle Musa, FNSE",
@@ -86,6 +86,27 @@
       "highlight": "Unveiling of the Commemorative Monument and the Launch of the Endowment Fund."
     }
   ],
+  "achievements": [
+    {
+      "title": "NSE \"Engineering and You\" Competition",
+      "description": "Students won the 2025 Engineering and You competition organised by the Nigerian Society of Engineers (NSE), Abeokuta Branch.",
+      "year": "2025",
+      "image": "/achievements-nse-career-talk.jpeg"
+    },
+    {
+      "title": "ANCHOPSS National Debate",
+      "description": "Emerged victorious at the Association of Nigerian Conference of Principals of Secondary Schools (ANCHOPSS) national debate competition held in Imo State.",
+      "year": "2025"
+    },
+    {
+      "title": "Campus Security Transformation",
+      "description": "Through collaboration between alumni, government, and security agencies, the school environment was transformed from a security-challenged zone into a secure, fenced, and conducive learning environment."
+    },
+    {
+      "title": "Dual ICT Centre Partnership",
+      "description": "Established two ICT centres in partnership with the Nigerian Communications Commission (NCC) and the National Information Technology Development Agency (NITDA), ensuring students are CBT-ready."
+    }
+  ],
   "legacy": {
     "purpose": "To enhance Computer-Based Tests (CBT) and global competitiveness for all students.",
     "itCenters": [
@@ -111,6 +132,15 @@
     "phone": "08035050573",
     "web": "www.egsaosa.org",
     "socials": "@egsaosa_official"
+  },
+  "alumni": {
+    "intro": "EGSAOSA is powered by a vibrant network of old students spanning over four decades. 28 graduation sets are registered and actively contributing to the school's development.",
+    "registeredSets": [
+      1972, 1976, 1978, 1979, 1985, 1986, 1987, 1988,
+      1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998,
+      1999, 2000, 2001, 2002, 2003, 2005, 2006, 2007,
+      2009, 2010, 2011, 2013
+    ]
   },
   "footer": {
     "copyright": "© 2026 EGSAOSA. All rights reserved.",

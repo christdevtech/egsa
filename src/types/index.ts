@@ -44,6 +44,13 @@ export interface JubileeEvent {
   highlight?: string;
 }
 
+export interface Achievement {
+  title: string;
+  description: string;
+  year?: string;
+  image?: string;
+}
+
 export interface ITCenter {
   name: string;
   donor: string;
@@ -78,6 +85,11 @@ export interface ContactContent {
   socials: string;
 }
 
+export interface AlumniContent {
+  intro: string;
+  registeredSets: number[];
+}
+
 export interface FooterContent {
   copyright: string;
   motto: string;
@@ -91,8 +103,10 @@ export interface WebsiteContent {
   about: AboutContent;
   exco: ExcoMember[];
   events: JubileeEvent[];
+  achievements: Achievement[];
   legacy: LegacyProjectContent;
   giveBack: GiveBackContent;
   contact: ContactContent;
+  alumni: AlumniContent;
   footer: FooterContent;
 }
