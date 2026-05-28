@@ -1,6 +1,6 @@
 import styles from "./AlumniSection.module.css";
 import { AlumniContent } from "@/types";
-import { FaUsers } from "react-icons/fa";
+import { FaCalendar, FaUsers } from "react-icons/fa";
 
 interface AlumniSectionProps {
   content: AlumniContent;
@@ -19,13 +19,23 @@ export default function AlumniSection({ content }: AlumniSectionProps) {
 
         <div className={styles.statsRow}>
           <div className={styles.stat}>
-            <span className={styles.statIcon}><FaUsers /></span>
-            <span className={styles.statNumber}>{content.registeredSets.length}</span>
+            <span className={styles.statIcon}>
+              <FaUsers />
+            </span>
+            <span className={styles.statNumber}>
+              {content.registeredSets.length}
+            </span>
             <span className={styles.statLabel}>Registered Sets</span>
           </div>
           <div className={styles.stat}>
+            <span className={styles.statIcon}>
+              <FaCalendar />
+            </span>
             <span className={styles.statNumber}>
-              {content.registeredSets[content.registeredSets.length - 1] - content.registeredSets[0] + 1}+
+              {content.registeredSets[content.registeredSets.length - 1] -
+                content.registeredSets[0] +
+                1}
+              +
             </span>
             <span className={styles.statLabel}>Years of Legacy</span>
           </div>

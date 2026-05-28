@@ -18,7 +18,7 @@ export default function AboutSection({ content }: { content: AboutContent }) {
 
         {content.image && (
           <div style={{ position: "relative", width: "100%", height: "400px", marginBottom: "4rem", borderRadius: "var(--radius-lg)", overflow: "hidden" }}>
-            <Image src={content.image} alt="Leadership Team" fill style={{ objectFit: "cover" }} />
+            <Image src={content.image} alt="Leadership Team" fill sizes="(max-width: 768px) 100vw, 1200px" style={{ objectFit: "cover" }} />
           </div>
         )}
 

@@ -23,7 +23,7 @@ export default function GiveBack({ content }: { content: GiveBackContent }) {
             </button>
           </div>
           <div className={styles.endowmentImage} style={{ position: "relative", minHeight: "300px" }}>
-            <Image src="/endowment.png" alt="Endowment Fund" fill style={{ objectFit: "cover" }} />
+            <Image src="/endowment.png" alt="Endowment Fund" fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: "cover" }} />
           </div>
         </div>
 
@@ -37,6 +37,7 @@ export default function GiveBack({ content }: { content: GiveBackContent }) {
                     src={item.image}
                     alt={item.name}
                     fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
                     style={{ objectFit: "cover" }}
                   />
                 ) : (
@@ -48,6 +49,7 @@ export default function GiveBack({ content }: { content: GiveBackContent }) {
                     alt={`${item.name} back`}
                     fill
                     className={styles.backImage}
+                    sizes="(max-width: 768px) 100vw, 33vw"
                     style={{ objectFit: "cover" }}
                   />
                 )}
