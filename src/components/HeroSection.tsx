@@ -48,10 +48,10 @@ export default function HeroSection({ content, pillars }: HeroSectionProps) {
           <h1 className="heading-lg">{content.headline}</h1>
           <p className="text-lg">{content.subHeadline}</p>
           <div className={styles.actions}>
-            <button className="btn-primary">{content.primaryCta}</button>
-            <button className="btn-secondary" style={{ backgroundColor: "rgba(255,255,255,0.1)", color: "white", borderColor: "white" }}>
+            <a href="#contact" className="btn-primary">{content.primaryCta}</a>
+            <a href="#legacy" className="btn-secondary" style={{ backgroundColor: "rgba(255,255,255,0.1)", color: "white", borderColor: "white" }}>
               {content.secondaryCta}
-            </button>
+            </a>
           </div>
         </div>
 

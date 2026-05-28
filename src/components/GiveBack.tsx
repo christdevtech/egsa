@@ -18,9 +18,9 @@ export default function GiveBack({ content }: { content: GiveBackContent }) {
           <div className={styles.endowmentContent}>
             <h3>The Endowment Fund</h3>
             <p>{content.endowmentFund}</p>
-            <button className="btn-primary" style={{ marginTop: "1.5rem" }}>
+            <a href="#contact" className="btn-primary" style={{ marginTop: "1.5rem", display: "inline-block" }}>
               Donate Now
-            </button>
+            </a>
           </div>
           <div className={styles.endowmentImage} style={{ position: "relative", minHeight: "300px" }}>
             <Image src="/endowment.png" alt="Endowment Fund" fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: "cover" }} />
@@ -57,7 +57,7 @@ export default function GiveBack({ content }: { content: GiveBackContent }) {
               <div className={styles.merchInfo}>
                 <h4>{item.name}</h4>
                 <p>{item.description}</p>
-                <button className={styles.preOrderBtn}>Pre-order</button>
+                <a href="#contact" className={styles.preOrderBtn}>Pre-order</a>
               </div>
             </div>
           ))}
