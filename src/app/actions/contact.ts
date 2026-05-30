@@ -2,15 +2,19 @@
 
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
-const SENDER = `EGSAOSA <${process.env.SENDER_EMAIL || "noreply@egsaosa.org"}>`;
-const ADMIN_EMAILS = (process.env.ADMIN_EMAILS || "michael@egsaosa.org,goke@egsaosa.org")
-  .split(",")
-  .map((e) => e.trim());
-
 export async function submitContactForm(formData: FormData) {
   try {
+    const apiKey = process.env.RESEND_API_KEY;
+    if (!apiKey) {
+      console.error("Missing RESEND_API_KEY environment variable");
+      return { success: false, message: "Email service is not configured on the server. Please check environment variables." };
+    }
+
+    const resend = new Resend(apiKey);
+    const SENDER = `EGSAOSA <${process.env.SENDER_EMAIL || "noreply@egsaosa.org"}>`;
+    const ADMIN_EMAILS = (process.env.ADMIN_EMAILS || "michael@egsaosa.org,goke@egsaosa.org")
+      .split(",")
+      .map((e) => e.trim());
     const name = formData.get("name") as string;
     const email = formData.get("email") as string;
     const subject = formData.get("subject") as string;
